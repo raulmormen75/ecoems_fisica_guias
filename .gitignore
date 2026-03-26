@@ -1,0 +1,4 @@
+test-results/
+.vercel/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,851 @@
+# Guía 2
+
+Temática del ejercicio: Interpretación de gráficas posición-tiempo y movimiento rectilíneo uniforme
+
+Reactivo: 105
+Fuente: Guía 2
+
+Planteamiento del problema:
+La siguiente gráfica muestra la relación entre la distancia recorrida por un móvil y el tiempo empleado en alcanzar cada una de estas posiciones. A partir de esta información podemos afirmar que:
+
+La gráfica tiene:
+- Eje horizontal: tiempo (s)
+- Eje vertical: distancia (m)
+
+Los puntos visibles de la gráfica van aumentando de forma uniforme, aproximadamente así:
+- 0 s, 0 m
+- 5 s, 20 m
+- 10 s, 40 m
+- 15 s, 60 m
+- 20 s, 80 m
+
+La línea es recta y siempre sube con la misma inclinación.
+
+Opciones:
+A) la aceleración que experimentó el móvil es 50 m/s²
+B) el móvil mantuvo constante su posición
+C) la velocidad del móvil fue de 100 m/s después de 20 segundos
+D) el móvil mantuvo constante su velocidad
+E) la velocidad a los 4 segundos fue de 20 m/s
+
+Qué pide resolver el ejercicio:
+Aquí hay que interpretar la gráfica y decidir qué afirmación sí coincide con el movimiento mostrado.
+
+Desarrollo y descarte de opciones:
+
+A) la aceleración que experimentó el móvil es 50 m/s²
+Esta opción habla de aceleración, o sea, de cambio de velocidad.
+Pero la gráfica es de distancia contra tiempo, no de velocidad contra tiempo.
+Además, la línea es recta con la misma inclinación, eso indica que la velocidad no cambia.
+Si la velocidad no cambia, la aceleración no es 50 m/s².
+Se descarta.
+
+B) el móvil mantuvo constante su posición
+Mantener constante su posición significa quedarse en el mismo lugar.
+Si eso pasara, la gráfica sería una línea horizontal.
+Aquí la distancia va aumentando con el tiempo.
+Entonces el móvil sí se está moviendo.
+Se descarta.
+
+C) la velocidad del móvil fue de 100 m/s después de 20 segundos
+Esto no coincide con la gráfica.
+A los 20 s, lo que se observa es una distancia aproximada de 80 m, no una velocidad de 100 m/s.
+La velocidad se obtiene con la pendiente de la gráfica:
+80 m ÷ 20 s = 4 m/s
+No 100 m/s.
+Se descarta.
+
+D) el móvil mantuvo constante su velocidad
+Esta sí coincide con la gráfica.
+Como la línea es recta y tiene siempre la misma inclinación, quiere decir que por cada intervalo de tiempo recorre la misma cantidad de distancia.
+Por ejemplo:
+- de 0 a 5 s avanza 20 m
+- de 5 a 10 s avanza 20 m
+- de 10 a 15 s avanza 20 m
+- de 15 a 20 s avanza 20 m
+
+Eso muestra velocidad constante.
+Se conserva.
+
+E) la velocidad a los 4 segundos fue de 20 m/s
+Tampoco coincide.
+La pendiente de toda la gráfica es constante:
+80 m ÷ 20 s = 4 m/s
+Entonces la velocidad no es 20 m/s, sino 4 m/s.
+Se descarta.
+
+Opción correcta:
+D) el móvil mantuvo constante su velocidad
+
+Argumento:
+La gráfica de distancia contra tiempo es una línea recta ascendente con la misma inclinación en todo el recorrido. Eso significa que el móvil recorre distancias iguales en tiempos iguales. Cuando eso ocurre, el movimiento es uniforme y la velocidad se mantiene constante.
+
+Pista:
+Primero revisa qué representa cada eje. Si la gráfica de distancia contra tiempo es una línea recta con la misma inclinación, entonces la velocidad no cambia.
+
+---
+---
+
+Temática del ejercicio: Movimiento rectilíneo uniforme y movimiento uniformemente acelerado
+
+Reactivo: 106
+Fuente: Guía 2
+
+Planteamiento del problema:
+Relaciona los tipos de movimiento con las gráficas que los representan.
+
+Tipos de movimiento:
+I. Movimiento rectilíneo uniforme.
+II. Movimiento uniformemente acelerado.
+
+Gráficas:
+a) curva ascendente
+b) curva ascendente desde el origen
+c) línea recta ascendente
+d) línea recta ascendente desde el origen
+
+Opciones:
+A) I: a, c   II: b, d
+B) I: a, d   II: b, c
+C) I: c, d   II: a, b
+D) I: b, d   II: a, c
+E) I: b, c   II: a, d
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué gráficas corresponden a velocidad constante y cuáles a aceleración constante.
+
+Desarrollo y descarte de opciones:
+
+Primero analizamos la forma de las gráficas:
+
+- En una gráfica de distancia contra tiempo, una línea recta indica que la distancia aumenta siempre al mismo ritmo. Eso representa movimiento rectilíneo uniforme.
+- En una gráfica de distancia contra tiempo, una curva indica que el móvil cada vez avanza más rápido. Eso representa movimiento uniformemente acelerado.
+
+Ahora revisamos una por una:
+
+A) I: a, c   II: b, d
+Está mal.
+La gráfica a es curva, así que no puede ser movimiento rectilíneo uniforme.
+La gráfica d es recta, así que no puede ser uniformemente acelerado.
+Se descarta.
+
+B) I: a, d   II: b, c
+Está mal.
+La gráfica a vuelve a estar mal colocada en movimiento uniforme porque es curva.
+La gráfica c es recta y la ponen como acelerado.
+Se descarta.
+
+C) I: c, d   II: a, b
+Está bien.
+Las gráficas c y d son líneas rectas, así que representan movimiento rectilíneo uniforme.
+Las gráficas a y b son curvas, así que representan movimiento uniformemente acelerado.
+Se conserva.
+
+D) I: b, d   II: a, c
+Está mal.
+La gráfica b es curva y la ponen como uniforme.
+La gráfica c es recta y la ponen como acelerado.
+Se descarta.
+
+E) I: b, c   II: a, d
+Está mal.
+La gráfica b no puede ir en uniforme porque es curva.
+La gráfica d no puede ir en acelerado porque es recta.
+Se descarta.
+
+Opción correcta:
+C) I: c, d   II: a, b
+
+Argumento:
+El movimiento rectilíneo uniforme tiene velocidad constante, por eso en la gráfica distancia-tiempo aparece como línea recta. El movimiento uniformemente acelerado cambia su velocidad con el tiempo, por eso su gráfica distancia-tiempo aparece como curva. En este reactivo, c y d son rectas, mientras que a y b son curvas.
+
+Pista:
+Si la gráfica es recta, la velocidad no cambia. Si la gráfica es curva, la velocidad sí cambia.
+
+---
+---
+
+Temática del ejercicio: Aceleración
+
+Reactivo: 107
+Fuente: Guía 2
+
+Planteamiento del problema:
+Un móvil cambia uniformemente su velocidad de 5 m/s a 15 m/s en 10 segundos, ¿cuál es su aceleración?
+
+Opciones:
+A) 20 m/s²
+B) 10 m/s²
+C) 1 m/s²
+D) -10 m/s²
+E) 5 m/s²
+
+Qué pide resolver el ejercicio:
+Aquí hay que calcular la aceleración a partir del cambio de velocidad y el tiempo.
+
+Desarrollo y descarte de opciones:
+
+Primero usamos la fórmula de aceleración:
+
+a = (vf - vi) / t
+
+Dónde:
+- vf es la velocidad final
+- vi es la velocidad inicial
+- t es el tiempo
+
+Sustituimos los datos:
+
+a = (15 - 5) / 10
+a = 10 / 10
+a = 1 m/s²
+
+Ahora revisamos las opciones:
+
+A) 20 m/s²
+Está mal.
+Ese valor es demasiado grande.
+Parece que confunde el cambio de velocidad con otra operación, pero no sale al dividir entre 10 segundos.
+Se descarta.
+
+B) 10 m/s²
+Está mal.
+Aquí tomaron solo el cambio de velocidad:
+15 - 5 = 10
+Pero faltó dividir entre el tiempo.
+Se descarta.
+
+C) 1 m/s²
+Está bien.
+Sí sale de dividir el cambio de velocidad entre el tiempo:
+10 / 10 = 1
+Se conserva.
+
+D) -10 m/s²
+Está mal.
+El signo negativo indicaría que el móvil disminuyó su velocidad.
+Pero aquí pasó de 5 m/s a 15 m/s, o sea, aumentó.
+Se descarta.
+
+E) 5 m/s²
+Está mal.
+No corresponde al resultado de la fórmula.
+Puede confundir porque aparece el número 5 en los datos, pero no es la aceleración.
+Se descarta.
+
+Opción correcta:
+C) 1 m/s²
+
+Argumento:
+La aceleración mide qué tanto cambia la velocidad en cierto tiempo. Como el móvil aumentó su velocidad de 5 m/s a 15 m/s en 10 segundos, el cambio fue de 10 m/s. Al dividir ese cambio entre 10 segundos, la aceleración es de 1 m/s².
+
+Pista:
+Primero resta la velocidad final menos la inicial. Después divide ese resultado entre el tiempo.
+
+---
+---
+
+Temática del ejercicio: Segunda ley de Newton
+
+Reactivo: 108
+Fuente: Guía 2
+
+Planteamiento del problema:
+Sobre una masa de 12 kg se aplicó una fuerza de 36 N, ¿cuál es la aceleración que experimentó?
+
+Opciones:
+A) 24.00 m/s²
+B) 48.00 m/s²
+C) 0.33 m/s²
+D) 3.00 m/s²
+E) 4.32 m/s²
+
+Qué pide resolver el ejercicio:
+Aquí hay que calcular la aceleración usando la fuerza y la masa.
+
+Desarrollo y descarte de opciones:
+
+Usamos la fórmula de la segunda ley de Newton:
+
+F = m·a
+
+Ahora despejamos la aceleración:
+
+a = F / m
+
+Sustituimos los datos:
+
+a = 36 / 12
+
+a = 3 m/s²
+
+Ahora revisamos las opciones:
+
+A) 24.00 m/s²
+Está mal.
+Ese valor no sale de dividir 36 entre 12.
+Se descarta.
+
+B) 48.00 m/s²
+Está mal.
+Es un valor mayor que la fuerza dada y no corresponde a la operación correcta.
+Se descarta.
+
+C) 0.33 m/s²
+Está mal.
+Ese resultado saldría si se dividiera al revés o se hiciera mal la operación.
+Se descarta.
+
+D) 3.00 m/s²
+Está bien.
+Sí corresponde a dividir la fuerza entre la masa:
+36 / 12 = 3
+Se conserva.
+
+E) 4.32 m/s²
+Está mal.
+No coincide con la fórmula ni con el cálculo correcto.
+Se descarta.
+
+Opción correcta:
+D) 3.00 m/s²
+
+Argumento:
+La aceleración se obtiene al dividir la fuerza aplicada entre la masa. Si la fuerza es de 36 N y la masa es de 12 kg, entonces la aceleración es de 3 m/s².
+
+Pista:
+En problemas de fuerza, masa y aceleración, casi siempre primero conviene usar la fórmula F = m·a y luego despejar.
+
+---
+---
+
+Temática del ejercicio: Energía mecánica
+
+Reactivo: 109
+Fuente: Guía 2
+
+Planteamiento del problema:
+En mecánica, ¿cuál de las siguientes formas de energía corresponde a energía almacenada?
+
+Opciones:
+A) Potencial
+B) Térmica
+C) Cinética
+D) Trabajo
+E) Nuclear
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué tipo de energía se considera energía almacenada.
+
+Desarrollo y descarte de opciones:
+
+A) Potencial
+Esta sí se relaciona con energía almacenada.
+La energía potencial es la que un cuerpo tiene por su posición o por su estado.
+Por ejemplo, un objeto levantado guarda energía por estar a cierta altura.
+Se conserva.
+
+B) Térmica
+Esta opción puede confundir porque también es una forma de energía.
+Pero la energía térmica se relaciona con el movimiento de las partículas y con la temperatura.
+No es la respuesta que normalmente se usa en mecánica para hablar de energía almacenada.
+Se descarta.
+
+C) Cinética
+La energía cinética es la energía del movimiento.
+Si algo se mueve, tiene energía cinética.
+Como el reactivo pregunta por energía almacenada, no corresponde.
+Se descarta.
+
+D) Trabajo
+El trabajo no es una energía almacenada.
+En física, el trabajo es la transferencia de energía cuando una fuerza mueve un objeto.
+No se guarda como tal en un cuerpo con ese nombre.
+Se descarta.
+
+E) Nuclear
+También es una forma de energía, pero no es la que busca este reactivo dentro del tema básico de mecánica.
+Aquí el concepto correcto y directo de energía almacenada es la energía potencial.
+Se descarta.
+
+Opción correcta:
+A) Potencial
+
+Argumento:
+En mecánica, la energía potencial es la energía almacenada que tiene un cuerpo por su posición o configuración. La energía cinética corresponde al movimiento, mientras que el trabajo es transferencia de energía, no energía almacenada.
+
+Pista:
+Piensa en un objeto que todavía no se mueve, pero que por estar en cierta posición ya puede producir movimiento después.
+
+---
+---
+
+Temática del ejercicio: Electricidad estática
+
+Reactivo: 110
+Fuente: Guía 2
+
+Planteamiento del problema:
+Cuando caminas sobre una alfombra y traes puestos tenis y ropa de nylon adquieres carga eléctrica principalmente por
+
+Opciones:
+A) conducción
+B) inducción
+C) radiación
+D) contacto
+E) frotamiento
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar de qué manera se produce la carga eléctrica estática en esa situación.
+
+Desarrollo y descarte de opciones:
+
+A) conducción
+La conducción ocurre cuando una carga pasa de un cuerpo a otro por contacto directo, normalmente en materiales que permiten ese paso con facilidad.
+Aquí el ejemplo no se enfoca en transferir carga por simple contacto, sino por rozar materiales entre sí.
+Se descarta.
+
+B) inducción
+La inducción ocurre cuando un cuerpo se carga por la presencia cercana de otro cuerpo cargado, sin tocarlo directamente.
+En el reactivo no se menciona un objeto cargado acercándose, sino caminar sobre una alfombra.
+Se descarta.
+
+C) radiación
+La radiación se relaciona con propagación de energía, como luz o calor, no con este caso de electricidad estática al caminar.
+No corresponde al fenómeno descrito.
+Se descarta.
+
+D) contacto
+Esta opción puede confundir porque sí hay contacto con la alfombra.
+Pero el reactivo pregunta por el mecanismo principal que hace que aparezca la carga eléctrica.
+Ese mecanismo no es solo tocar, sino rozar o tallar superficies.
+Se descarta.
+
+E) frotamiento
+Esta sí corresponde.
+Cuando los tenis, la ropa de nylon y la alfombra se rozan, se transfieren electrones entre materiales y aparece electricidad estática.
+Eso es electrización por frotamiento.
+Se conserva.
+
+Opción correcta:
+E) frotamiento
+
+Argumento:
+La situación describe un caso típico de electricidad estática. Al caminar sobre la alfombra, los materiales se rozan entre sí y eso provoca transferencia de cargas eléctricas. Por eso el cuerpo adquiere carga principalmente por frotamiento.
+
+Pista:
+Si en el ejemplo hay roce entre materiales como tela, alfombra o calzado, piensa en electricidad estática por rozamiento.
+
+---
+---
+
+Temática del ejercicio: Presión atmosférica
+
+Reactivo: 111
+Fuente: Guía 2
+
+Planteamiento del problema:
+¿Cuáles de las siguientes afirmaciones corresponden a la presión atmosférica?
+
+I. Es igual en todos los puntos de la superficie terrestre.
+II. Es mayor en lo alto de las montañas (aumenta con la altura respecto al nivel del mar).
+III. Es mayor a nivel del mar (disminuye con la altura respecto al nivel del mar).
+IV. Actúa solo en dirección vertical, de arriba hacia abajo.
+V. Actúa en todas direcciones en un punto dado dentro de la atmósfera.
+
+¿Cuáles de ellas son correctas?
+
+Opciones:
+A) I y IV
+B) I y V
+C) II y V
+D) III y IV
+E) III y V
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cuáles afirmaciones sí describen correctamente la presión atmosférica.
+
+Desarrollo y descarte de opciones:
+
+Primero revisamos una por una las afirmaciones:
+
+I. Es igual en todos los puntos de la superficie terrestre.
+Está mal.
+La presión atmosférica no es igual en todos lados.
+Cambia con la altitud.
+En lugares más altos, como montañas, la presión es menor.
+
+II. Es mayor en lo alto de las montañas.
+Está mal.
+Pasa al revés.
+Entre más altura hay, menos aire queda encima de nosotros y por eso la presión disminuye.
+
+III. Es mayor a nivel del mar.
+Está bien.
+A nivel del mar hay más columna de aire encima, así que la presión es mayor.
+Conforme sube la altura, la presión baja.
+
+IV. Actúa solo en dirección vertical, de arriba hacia abajo.
+Está mal.
+La presión de un fluido, como el aire, no actúa solo hacia abajo.
+Actúa sobre los cuerpos en varias direcciones.
+
+V. Actúa en todas direcciones en un punto dado dentro de la atmósfera.
+Está bien.
+Esa sí es una propiedad de la presión en los fluidos.
+El aire empuja en todas direcciones.
+
+Ahora revisamos las opciones:
+
+A) I y IV
+Está mal.
+Las dos afirmaciones son incorrectas.
+Se descarta.
+
+B) I y V
+Está mal.
+La V sí es correcta, pero la I no.
+Se descarta.
+
+C) II y V
+Está mal.
+La V sí es correcta, pero la II no.
+Se descarta.
+
+D) III y IV
+Está mal.
+La III sí es correcta, pero la IV no.
+Se descarta.
+
+E) III y V
+Está bien.
+Las dos afirmaciones sí describen correctamente la presión atmosférica.
+Se conserva.
+
+Opción correcta:
+E) III y V
+
+Argumento:
+La presión atmosférica es mayor a nivel del mar y disminuye conforme aumenta la altura. Además, como el aire es un fluido, ejerce presión en todas direcciones. Por eso las afirmaciones correctas son la III y la V.
+
+Pista:
+Piensa en dos ideas: en la montaña hay menos aire encima, y el aire empuja alrededor de los cuerpos, no solo hacia abajo.
+
+---
+---
+
+Temática del ejercicio: Presión
+
+Reactivo: 112
+Fuente: Guía 2
+
+Planteamiento del problema:
+A la razón de dividir la fuerza entre el área se le conoce como
+
+Opciones:
+A) presión
+B) densidad
+C) impulso
+D) volumen
+E) peso
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar el nombre físico de la relación entre fuerza y área.
+
+Desarrollo y descarte de opciones:
+
+A) presión
+Esta sí corresponde.
+En Física, la presión se define como la fuerza aplicada sobre una superficie dividida entre el área de esa superficie.
+Por eso esta opción coincide exactamente con el enunciado.
+Se conserva.
+
+B) densidad
+Está mal.
+La densidad relaciona masa y volumen.
+No relaciona fuerza con área.
+Puede confundir porque también es una razón entre dos magnitudes, pero no es la que pide el reactivo.
+Se descarta.
+
+C) impulso
+Está mal.
+El impulso se relaciona con fuerza y tiempo.
+No con fuerza entre área.
+Se descarta.
+
+D) volumen
+Está mal.
+El volumen mide el espacio que ocupa un cuerpo.
+No es una división entre fuerza y área.
+Se descarta.
+
+E) peso
+Está mal.
+El peso es una fuerza con la que la gravedad atrae a un cuerpo.
+Aunque el peso sí es una fuerza, aquí falta la parte de dividir entre área.
+Se descarta.
+
+Opción correcta:
+A) presión
+
+Argumento:
+Cuando una fuerza se reparte sobre una superficie, la magnitud que mide ese efecto es la presión. Por eso, dividir fuerza entre área da como resultado presión.
+
+Pista:
+Piensa en unos tacones y unos tenis. Si la misma fuerza se aplica en menos área, el efecto sobre la superficie cambia.
+
+---
+---
+
+Temática del ejercicio: Cambios de estado de la materia
+
+Reactivo: 113
+Fuente: Guía 2
+
+Planteamiento del problema:
+Las pastillas desodorantes que se usan para aromatizar el ambiente pasan de sólido a gas. A este fenómeno se le conoce como
+
+Opciones:
+A) condensación
+B) evaporación
+C) sublimación
+D) ebullición
+E) solidificación
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar el nombre del cambio de estado cuando una sustancia pasa directamente de sólido a gas.
+
+Desarrollo y descarte de opciones:
+
+A) condensación
+Está mal.
+La condensación ocurre cuando un gas pasa a líquido.
+Por ejemplo, cuando el vapor de agua forma gotitas.
+Aquí el cambio no va de gas a líquido.
+Se descarta.
+
+B) evaporación
+Está mal.
+La evaporación ocurre cuando un líquido pasa a gas.
+Por ejemplo, cuando el agua se seca.
+Aquí el reactivo dice que pasa de sólido a gas.
+Se descarta.
+
+C) sublimación
+Está bien.
+La sublimación ocurre cuando una sustancia pasa directamente de sólido a gas, sin pasar por el estado líquido.
+Eso es justo lo que pasa con esas pastillas desodorantes.
+Se conserva.
+
+D) ebullición
+Está mal.
+La ebullición también es un cambio de líquido a gas, pero ocurre en toda la masa del líquido al llegar a cierta temperatura.
+No corresponde a sólido a gas.
+Se descarta.
+
+E) solidificación
+Está mal.
+La solidificación ocurre cuando un líquido pasa a sólido.
+Es el cambio contrario a derretirse.
+No corresponde al caso.
+Se descarta.
+
+Opción correcta:
+C) sublimación
+
+Argumento:
+El reactivo describe un cambio directo de sólido a gas. Ese cambio de estado se llama sublimación. No pasa por líquido, y por eso no puede ser evaporación ni ebullición.
+
+Pista:
+Fíjate primero en el estado inicial y el final. Si empieza en sólido y termina en gas, busca el nombre exacto de ese paso directo.
+
+---
+---
+
+Temática del ejercicio: Corriente eléctrica y campo magnético
+
+Reactivo: 114
+Fuente: Guía 2
+
+Planteamiento del problema:
+¿Qué sucede cuando se hace circular una corriente por un conductor?
+
+Opciones:
+A) La energía cinética de los electrones aumenta si la resistencia del conductor es grande.
+B) Los protones en movimiento crean una corriente a través del conductor.
+C) La corriente que circula por el conductor será inversamente proporcional al voltaje.
+D) Se presenta un campo magnético en el espacio que rodea al conductor.
+E) La aguja de una brújula cercana permanece estática.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué fenómeno físico aparece cuando pasa corriente por un conductor.
+
+Desarrollo y descarte de opciones:
+
+A) La energía cinética de los electrones aumenta si la resistencia del conductor es grande.
+Está mal.
+La opción mezcla ideas que no responden directamente a lo que pregunta el reactivo.
+Aquí no piden hablar de energía cinética ni del efecto de una resistencia grande.
+Además, el fenómeno más conocido y directo al pasar corriente es la aparición de un campo magnético.
+Se descarta.
+
+B) Los protones en movimiento crean una corriente a través del conductor.
+Está mal.
+En un conductor metálico, la corriente se debe al movimiento de electrones.
+Los protones no se mueven por el cable como portadores de corriente.
+Se descarta.
+
+C) La corriente que circula por el conductor será inversamente proporcional al voltaje.
+Está mal.
+Pasa lo contrario.
+Si la resistencia se mantiene igual, la corriente es directamente proporcional al voltaje.
+Se descarta.
+
+D) Se presenta un campo magnético en el espacio que rodea al conductor.
+Está bien.
+Cuando una corriente eléctrica circula por un conductor, alrededor de él aparece un campo magnético.
+Ese es justamente el fenómeno que estudia el magnetismo producido por corriente.
+Se conserva.
+
+E) La aguja de una brújula cercana permanece estática.
+Está mal.
+Si hay corriente en el conductor, la brújula cercana puede desviarse por el campo magnético generado.
+Entonces no permanece estática.
+Se descarta.
+
+Opción correcta:
+D) Se presenta un campo magnético en el espacio que rodea al conductor.
+
+Argumento:
+La corriente eléctrica en un conductor produce un campo magnético a su alrededor. Por eso una brújula cercana puede moverse. Ese efecto demuestra la relación entre electricidad y magnetismo.
+
+Pista:
+Piensa en el experimento donde un cable con corriente logra desviar una brújula.
+
+---
+---
+
+Temática del ejercicio: Ondas y frecuencia
+
+Reactivo: 115
+Fuente: Guía 2
+
+Planteamiento del problema:
+¿Cuál es la unidad de la frecuencia de una onda en el sistema internacional de unidades?
+
+Opciones:
+A) Segundo
+B) Metro
+C) Metro/segundo
+D) Hertz
+E) Segundo/ciclo
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar la unidad correcta con la que se mide la frecuencia.
+
+Desarrollo y descarte de opciones:
+
+A) Segundo
+Está mal.
+El segundo es unidad de tiempo.
+La frecuencia no mide tiempo, sino cuántas veces se repite un ciclo en cierto tiempo.
+Se descarta.
+
+B) Metro
+Está mal.
+El metro mide longitud o distancia.
+Eso se relaciona más con longitud de onda, no con frecuencia.
+Se descarta.
+
+C) Metro/segundo
+Está mal.
+Metro/segundo es unidad de velocidad.
+Eso puede servir para rapidez de propagación de una onda, pero no para frecuencia.
+Se descarta.
+
+D) Hertz
+Está bien.
+Hertz es la unidad de la frecuencia en el sistema internacional.
+Indica cuántos ciclos ocurren en un segundo.
+Se conserva.
+
+E) Segundo/ciclo
+Está mal.
+La frecuencia se expresa como ciclos por segundo, no segundos por ciclo.
+Segundos por ciclo se parece más al periodo.
+Se descarta.
+
+Opción correcta:
+D) Hertz
+
+Argumento:
+La frecuencia indica cuántos ciclos o repeticiones ocurren en un segundo. En el sistema internacional, esa magnitud se mide en Hertz. Por eso esa es la opción correcta.
+
+Pista:
+No confundas frecuencia con periodo. Una cuenta cuántos ciclos hay en un segundo y la otra cuánto tarda un ciclo.
+
+---
+---
+
+Temática del ejercicio: Reflexión de la luz en espejo plano
+
+Reactivo: 116
+Fuente: Guía 2
+
+Planteamiento del problema:
+Cuando se hace incidir un rayo de luz en un espejo plano, el ángulo de incidencia es
+
+Opciones:
+A) mayor al ángulo de reflexión
+B) menor al ángulo de reflexión
+C) el doble del ángulo de reflexión
+D) la mitad del ángulo de reflexión
+E) igual al ángulo de reflexión
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué relación existe entre el ángulo de incidencia y el ángulo de reflexión en un espejo plano.
+
+Desarrollo y descarte de opciones:
+
+A) mayor al ángulo de reflexión
+Está mal.
+En un espejo plano no pasa que uno sea mayor que el otro.
+La ley de la reflexión dice que ambos ángulos tienen la misma medida.
+Se descarta.
+
+B) menor al ángulo de reflexión
+Está mal.
+Tampoco puede ser menor.
+No hay una diferencia entre ellos en este caso.
+Se descarta.
+
+C) el doble del ángulo de reflexión
+Está mal.
+No existe esa relación de duplicar.
+Esa opción mete una comparación falsa para confundir.
+Se descarta.
+
+D) la mitad del ángulo de reflexión
+Está mal.
+Tampoco uno vale la mitad del otro.
+En reflexión en espejo plano, los dos ángulos son iguales.
+Se descarta.
+
+E) igual al ángulo de reflexión
+Está bien.
+Esta sí coincide con la ley de la reflexión.
+Cuando un rayo llega a un espejo plano, el ángulo con el que entra respecto a la normal es igual al ángulo con el que sale.
+Se conserva.
+
+Opción correcta:
+E) igual al ángulo de reflexión
+
+Argumento:
+En un espejo plano se cumple la ley de la reflexión: el ángulo de incidencia es igual al ángulo de reflexión. Por eso no puede ser mayor, menor, el doble ni la mitad.
+
+Pista:
+Recuerda la regla básica de los espejos planos: el rayo llega y sale con el mismo ángulo respecto a la normal.
+
+---
+---
+---

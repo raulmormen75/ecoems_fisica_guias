@@ -1,0 +1,777 @@
+# Guía 1
+
+Temática del ejercicio: Rapidez y velocidad
+
+Reactivo: 105
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+¿Cuál es la diferencia que existe entre la velocidad y la rapidez?
+
+Opciones:
+A) La velocidad es un vector y la rapidez es un escalar.
+B) La rapidez mide la relación velocidad–tiempo mientras que la velocidad es la relación entre distancia–tiempo.
+C) La rapidez mide la aceleración mientras que la velocidad es únicamente la relación entre distancia y tiempo.
+D) La velocidad es un escalar y la rapidez es un vector.
+
+Qué pide resolver el ejercicio:
+Aquí hay que distinguir correctamente qué es rapidez y qué es velocidad.
+
+Desarrollo y descarte de opciones:
+
+A) La velocidad es un vector y la rapidez es un escalar.
+Esta opción sí se relaciona con el tema.
+Significa que la velocidad no solo dice cuánto se mueve algo, sino también hacia dónde va. En cambio, la rapidez solo indica qué tan rápido se mueve, sin dirección.
+Puede confundir porque en lenguaje cotidiano muchas veces se usan como si fueran lo mismo, pero en Física no son iguales.
+Se conserva porque esa es la diferencia correcta.
+
+B) La rapidez mide la relación velocidad–tiempo mientras que la velocidad es la relación entre distancia–tiempo.
+Esta opción mezcla conceptos de forma incorrecta.
+La relación velocidad–tiempo no define la rapidez. Más bien, cuando comparas cambio de velocidad con tiempo, eso se acerca a la aceleración.
+Puede confundir porque sí aparecen las palabras “velocidad” y “tiempo”, pero están mal relacionadas.
+Se descarta porque la definición no corresponde.
+
+C) La rapidez mide la aceleración mientras que la velocidad es únicamente la relación entre distancia y tiempo.
+Esta opción también está mal.
+La rapidez no mide la aceleración. La aceleración indica cuánto cambia la velocidad en el tiempo.
+Puede confundir porque las tres magnitudes están relacionadas con movimiento, pero no significan lo mismo.
+Se descarta porque cambia el significado físico de rapidez.
+
+D) La velocidad es un escalar y la rapidez es un vector.
+Esta opción está invertida.
+Dice exactamente lo contrario de lo correcto.
+Puede confundir porque usa las palabras correctas “vector” y “escalar”, pero las asigna al concepto equivocado.
+Se descarta porque la rapidez no lleva dirección y la velocidad sí.
+
+Opción correcta:
+A) La velocidad es un vector y la rapidez es un escalar.
+
+Argumento:
+La rapidez solo expresa cuánto recorre un objeto en cierto tiempo. No dice hacia qué lado va. Por eso es una magnitud escalar.
+La velocidad, además de indicar cuánto cambia la posición en cierto tiempo, también considera la dirección del movimiento. Por eso es vectorial.
+Esa es justo la diferencia que pide el reactivo.
+
+Pista:
+Para no confundirte, piensa esto: si una magnitud necesita dirección, entonces es vector. Si solo da cantidad, es escalar.
+
+---
+---
+
+Temática del ejercicio: Interpretación de tablas de datos y gráficas posición-tiempo
+
+Reactivo: 106
+Fuente: Captura compartida por el usuario
+
+Planteamiento del problema:
+No se alcanza a ver completo el enunciado del reactivo en la imagen.
+Lo que sí se ve es una tabla con los siguientes datos:
+
+Tiempo (s) | Posición (m)
+0          | 0
+1          | 1
+2          | 4
+3          | 9
+
+También se observan cuatro gráficas como opciones de respuesta, etiquetadas como A), B), C) y D).
+
+Opciones:
+A) Gráfica de posición (km) contra tiempo (h), con puntos aproximados en:
+   (0, 0), (2, 3) y (6, 18)
+
+B) Gráfica de tiempo (h) contra posición (km), con puntos aproximados en:
+   (0, 0), (6, 2) y (18, 6)
+
+C) Gráfica de posición (m) contra tiempo (s), con puntos:
+   (0, 0), (1, 1), (2, 4), (3, 9)
+
+D) Gráfica de posición (m) contra tiempo (s), curva descendente que inicia cerca de 80 m y baja hasta 0 m alrededor de 4 s
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué gráfica representa correctamente los datos de la tabla.
+
+Desarrollo y descarte de opciones:
+
+A) Gráfica de posición (km) contra tiempo (h)
+Sí se relaciona con una gráfica de movimiento, pero no coincide con la tabla.
+La tabla usa segundos y metros, mientras que esta opción usa horas y kilómetros.
+Además, los valores no son los mismos. En la tabla, cuando el tiempo es 2 s, la posición es 4 m, pero en esta gráfica cerca de 2 h la posición es 3 km.
+Puede confundir porque sí presenta una gráfica de posición contra tiempo, pero los datos no corresponden.
+Se descarta porque ni las unidades ni los puntos coinciden.
+
+B) Gráfica de tiempo (h) contra posición (km)
+Esta opción cambia el orden de los ejes.
+En la tabla, el tiempo va como variable de entrada y la posición depende del tiempo. Por eso, lo correcto es poner tiempo en el eje horizontal y posición en el vertical.
+Puede confundir porque muestra una relación entre posición y tiempo, pero está acomodada al revés.
+También usa horas y kilómetros, no segundos y metros.
+Se descarta porque los ejes y las unidades no coinciden con la tabla.
+
+C) Gráfica de posición (m) contra tiempo (s)
+Esta opción sí coincide con el tema y con la tabla.
+Los puntos que aparecen son exactamente:
+cuando el tiempo es 0 s, la posición es 0 m;
+cuando el tiempo es 1 s, la posición es 1 m;
+cuando el tiempo es 2 s, la posición es 4 m;
+cuando el tiempo es 3 s, la posición es 9 m.
+Puede confundir un poco porque la línea no es recta y algunos alumnos piensan que toda gráfica de movimiento debe ser lineal, pero no. Aquí la posición va aumentando cada vez más rápido.
+Se conserva porque reproduce exactamente los datos.
+
+D) Gráfica de posición (m) contra tiempo (s), descendente
+Esta opción muestra que la posición va disminuyendo con el tiempo.
+La tabla muestra lo contrario: la posición aumenta de 0 a 1, luego a 4 y luego a 9.
+Puede confundir porque sí usa metros y segundos, pero la forma de la curva no representa los datos.
+Se descarta porque el comportamiento es opuesto al de la tabla.
+
+Opción correcta:
+C) Gráfica de posición (m) contra tiempo (s) con puntos (0,0), (1,1), (2,4) y (3,9)
+
+Argumento:
+La opción C es la correcta porque respeta exactamente los datos de la tabla y también coloca bien las variables en los ejes:
+tiempo en el eje horizontal y posición en el eje vertical.
+Además, cada punto de la tabla aparece en la gráfica sin cambiar valores ni unidades.
+Por eso, es la única opción que representa correctamente la información dada.
+
+Pista:
+Revisa dos cosas antes de elegir: que los ejes estén en el orden correcto y que cada par de datos de la tabla aparezca igual en la gráfica.
+
+---
+---
+
+Temática del ejercicio: Interpretación de gráficas velocidad-tiempo
+
+Reactivo: 107
+Fuente: Guía 1
+
+Planteamiento del problema:
+Un automóvil realiza un viaje como el que ilustra la gráfica que a continuación se presenta, ¿cuál de las opciones describe las características de éste?
+
+La gráfica muestra velocidad \(v\) en km/h en el eje vertical y tiempo \(t\) en horas en el eje horizontal.
+Se observa lo siguiente:
+- En \(t=0\), el automóvil inicia con velocidad \(0\).
+- De \(t=0\) a \(t=1\), la velocidad aumenta hasta \(60\ \text{km/h}\).
+- De \(t=1\) a \(t=3\), la velocidad se mantiene constante en \(60\ \text{km/h}\).
+- De \(t=3\) a \(t=4\), la velocidad disminuye hasta \(0\).
+
+Opciones:
+A) El automóvil inició su recorrido en el reposo incrementando la velocidad hasta 60 km/h en una hora, mantuvo esta velocidad durante las siguientes tres horas, tiempo en el cual llegó al punto en que inició su recorrido.
+
+B) El automóvil partió del reposo hasta alcanzar una velocidad de 60 km/h en una hora, después se detuvo durante las siguientes dos horas, en la siguiente hora reanudó su marcha hasta llegar al lugar de donde partió.
+
+C) El automóvil partió del reposo, en la primera hora alcanzó una velocidad de 60 km/h, y mantuvo esta durante las dos horas siguientes, después redujo la velocidad hasta que a las 4 horas de iniciado su recorrido se detuvo.
+
+D) El automóvil partió del reposo y se encontró con la pendiente de una montaña, a la que ascendió en una hora, después recorrió la meseta de la montaña a 60 km/h durante dos horas, en la hora siguiente descendió a 60 km/h.
+
+Qué pide resolver el ejercicio:
+Aquí hay que interpretar la gráfica de velocidad contra tiempo y elegir la descripción que coincide con ella.
+
+Desarrollo y descarte de opciones:
+
+A) El automóvil inició su recorrido en el reposo incrementando la velocidad hasta 60 km/h en una hora, mantuvo esta velocidad durante las siguientes tres horas, tiempo en el cual llegó al punto en que inició su recorrido.
+Esta opción empieza bien, porque sí parte del reposo y sí llega a \(60\ \text{km/h}\) en una hora.
+El problema está después.
+La gráfica no muestra que mantuviera esa velocidad durante tres horas. Solo la mantiene de \(t=1\) a \(t=3\), o sea, durante dos horas.
+Además, la gráfica es de velocidad contra tiempo, no de posición. Por eso no se puede afirmar aquí que regresó al punto de inicio.
+Puede confundir porque la primera parte sí parece correcta.
+Se descarta porque exagera el tiempo a velocidad constante y además dice algo que la gráfica no muestra.
+
+B) El automóvil partió del reposo hasta alcanzar una velocidad de 60 km/h en una hora, después se detuvo durante las siguientes dos horas, en la siguiente hora reanudó su marcha hasta llegar al lugar de donde partió.
+La primera parte también coincide con la gráfica.
+Pero luego dice que se detuvo durante dos horas.
+Eso sería una velocidad de \(0\ \text{km/h}\), y en la gráfica no aparece eso entre \(t=1\) y \(t=3\). En ese tramo la velocidad está en \(60\ \text{km/h}\), no en cero.
+También vuelve a afirmar que regresó al lugar de partida, y eso no se puede concluir con una gráfica de velocidad-tiempo como esta.
+Puede confundir porque menciona bien el arranque desde el reposo.
+Se descarta porque interpreta mal el tramo horizontal.
+
+C) El automóvil partió del reposo, en la primera hora alcanzó una velocidad de 60 km/h, y mantuvo esta durante las dos horas siguientes, después redujo la velocidad hasta que a las 4 horas de iniciado su recorrido se detuvo.
+Esta opción describe exactamente lo que se ve.
+Primero parte con velocidad cero.
+Luego aumenta su velocidad hasta \(60\ \text{km/h}\) al cumplir una hora.
+Después mantiene esa velocidad constante durante dos horas, de \(t=1\) a \(t=3\).
+Finalmente reduce su velocidad hasta llegar a \(0\ \text{km/h}\) en \(t=4\).
+No mete información extra sobre regresar al punto de inicio ni sobre detenerse antes de tiempo.
+Se conserva porque coincide por completo con la gráfica.
+
+D) El automóvil partió del reposo y se encontró con la pendiente de una montaña, a la que ascendió en una hora, después recorrió la meseta de la montaña a 60 km/h durante dos horas, en la hora siguiente descendió a 60 km/h.
+Esta opción mete una historia de montaña y meseta que la gráfica no muestra.
+La gráfica solo habla de velocidad y tiempo, no de relieve, subida o bajada.
+Además, al final dice “descendió a 60 km/h”, pero en realidad en la última hora la velocidad baja de \(60\ \text{km/h}\) a \(0\ \text{km/h}\).
+Puede confundir porque menciona bien que hubo dos horas a \(60\ \text{km/h}\).
+Se descarta porque agrega elementos que no aparecen y falla en la parte final.
+
+Opción correcta:
+C) El automóvil partió del reposo, en la primera hora alcanzó una velocidad de 60 km/h, y mantuvo esta durante las dos horas siguientes, después redujo la velocidad hasta que a las 4 horas de iniciado su recorrido se detuvo.
+
+Argumento:
+La opción C es la correcta porque respeta los tres momentos que sí aparecen en la gráfica:
+1. Aumento de velocidad de \(0\) a \(60\ \text{km/h}\) en la primera hora.
+2. Velocidad constante de \(60\ \text{km/h}\) durante dos horas.
+3. Disminución de velocidad hasta detenerse a las 4 horas.
+
+La gráfica no muestra posición, así que no se puede afirmar que volvió al lugar donde empezó. Solo se puede describir cómo cambió su velocidad con el tiempo.
+
+Pista:
+En una gráfica velocidad-tiempo, un tramo horizontal no significa reposo. Significa velocidad constante. Reposo solo ocurre cuando la gráfica está en \(0\).
+
+---
+---
+
+Temática del ejercicio: Fuerza y aceleración, uso de F = ma
+
+Reactivo: 108
+Fuente: Guía compartida por el usuario y captura compartida por el usuario
+
+Planteamiento del problema:
+Si se aplica una fuerza de 10 Newtons a un balón de 2 kg de masa, originalmente en reposo, su aceleración será de:
+
+Opciones:
+A) 5 m/s²
+B) 2 m/s²
+C) 1 m/s²
+D) 10 m/s²
+
+Qué pide resolver el ejercicio:
+Aquí hay que calcular la aceleración usando la relación entre fuerza, masa y aceleración.
+
+Desarrollo y descarte de opciones:
+
+Primero identificamos los datos:
+- Fuerza: 10 N
+- Masa: 2 kg
+
+La fórmula que se usa es:
+a = F / m
+
+Sustituimos:
+a = 10 / 2
+
+Entonces:
+a = 5 m/s²
+
+Ahora revisamos una por una las opciones.
+
+A) 5 m/s²
+Esta opción sí se relaciona con el tema y coincide exactamente con el resultado del cálculo.
+Significa que la rapidez del balón cambia 5 metros por segundo cada segundo.
+Se conserva porque es el valor correcto.
+
+B) 2 m/s²
+Esta opción podría confundir si alguien divide mal o usa la fórmula incorrectamente.
+Sí tiene unidad de aceleración, pero no sale del cálculo correcto.
+Se descarta porque 10 entre 2 no da 2.
+
+C) 1 m/s²
+Esta opción también puede confundir si alguien piensa que por iniciar en reposo la aceleración debe ser muy pequeña.
+Pero el reposo inicial no cambia la operación que pide el problema.
+Se descarta porque no coincide con la fórmula.
+
+D) 10 m/s²
+Esta opción puede confundir si alguien copia el valor de la fuerza y lo pone como aceleración sin dividir entre la masa.
+Sí tiene unidad correcta, pero el valor no está bien obtenido.
+Se descarta porque faltó considerar la masa del balón.
+
+Opción correcta:
+A) 5 m/s²
+
+Argumento:
+La segunda ley de Newton dice que la aceleración depende de la fuerza aplicada y de la masa del objeto.
+Si la fuerza es de 10 N y la masa es de 2 kg, entonces la aceleración se obtiene dividiendo:
+10 entre 2, y eso da 5.
+Por eso la respuesta correcta es 5 m/s².
+
+Pista:
+Cuando veas fuerza, masa y aceleración en el mismo reactivo, casi siempre debes revisar si aplica la fórmula F = ma y despejar la cantidad que falta.
+
+---
+---
+
+Temática del ejercicio: Fuerza resultante y equilibrio
+
+Reactivo: 109
+Fuente: Captura compartida por el usuario
+Nota: en la guía mostrada en captura no se distingue numeración visible del reactivo, pero seguimos el orden que indicaste como 109.
+
+Planteamiento del problema:
+La resultante (R) de las fuerzas que actúan sobre una lámpara en equilibrio sostenida por dos cables es
+
+Opciones:
+A) menor a cero.
+B) igual a cero.
+C) igual a la aceleración de la lámpara.
+D) mayor a cero.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cuánto vale la fuerza resultante cuando un objeto está en equilibrio.
+
+Desarrollo y descarte de opciones:
+
+A) menor a cero.
+Esta opción dice que la fuerza resultante sería negativa.
+Sí se relaciona con fuerzas, pero está mal planteada.
+La fuerza resultante no se responde aquí como “menor a cero” porque en equilibrio lo que importa es que las fuerzas se compensan entre sí.
+Puede confundir porque a veces se piensa que una fuerza hacia abajo “gana”, pero si la lámpara está en equilibrio eso no pasa.
+Se descarta porque en equilibrio la resultante no es negativa, sino nula.
+
+B) igual a cero.
+Esta opción sí coincide con el tema.
+Si una lámpara está en equilibrio, significa que no acelera, no sube y no baja.
+Eso solo ocurre cuando la suma de todas las fuerzas es cero.
+Se conserva porque describe correctamente el equilibrio.
+
+C) igual a la aceleración de la lámpara.
+Esta opción mezcla dos cosas distintas.
+La resultante es una fuerza y la aceleración es otra magnitud física.
+Además, si la lámpara está en equilibrio, su aceleración es cero.
+Puede confundir porque la segunda ley de Newton relaciona fuerza y aceleración, pero no dice que sean lo mismo.
+Se descarta porque compara magnitudes diferentes y está mal físicamente.
+
+D) mayor a cero.
+Esta opción dice que sí hay una fuerza neta distinta de cero.
+Si eso ocurriera, la lámpara tendría aceleración y dejaría de estar en equilibrio.
+Puede confundir porque sí existen tensiones en los cables y peso en la lámpara, pero esas fuerzas se compensan.
+Se descarta porque contradice la condición de equilibrio.
+
+Opción correcta:
+B) igual a cero.
+
+Argumento:
+Cuando un objeto está en equilibrio, todas las fuerzas que actúan sobre él se compensan.
+En la lámpara hay peso hacia abajo y tensiones de los cables que la sostienen.
+Si la lámpara permanece quieta, entonces la suma de fuerzas es cero.
+Por eso la resultante debe ser igual a cero.
+
+Pista:
+Si el objeto está en equilibrio y no cambia su movimiento, revisa si las fuerzas se cancelan entre sí.
+
+---
+---
+
+Temática del ejercicio: Electricidad estática y electrización por frotamiento
+
+Reactivo: 110
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+Cuando caminas sobre una alfombra (originalmente neutra) y traes puestos tenis y ropa de nylon adquieres carga eléctrica principalmente por
+
+Opciones:
+A) frotamiento.
+B) conducción.
+C) inducción.
+D) contacto.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar de qué manera un cuerpo adquiere carga eléctrica en esa situación.
+
+Desarrollo y descarte de opciones:
+
+A) frotamiento.
+Esta opción sí se relaciona directamente con lo que describe el reactivo.
+Cuando caminas sobre una alfombra, hay roce entre la suela, la alfombra y hasta la ropa. Ese roce puede hacer que unos materiales cedan electrones y otros los ganen.
+Eso produce electricidad estática.
+Se conserva porque es el fenómeno que mejor explica lo que pasa.
+
+B) conducción.
+La conducción ocurre cuando la carga pasa de un cuerpo a otro por contacto directo, normalmente en materiales que permiten mover carga con facilidad.
+Aquí el reactivo no se enfoca en transferencia por un conductor, sino en el roce al caminar.
+Puede confundir porque sí hay contacto físico con la alfombra, pero lo importante aquí no es solo tocar, sino el roce continuo.
+Se descarta porque no es el mecanismo principal.
+
+C) inducción.
+La inducción ocurre cuando un cuerpo se carga por la cercanía de otro cuerpo cargado, sin tocarlo directamente.
+En este reactivo no se habla de un objeto cargado acercándose y provocando separación de cargas.
+Puede confundir porque también es una forma de electrización, pero no corresponde a la escena descrita.
+Se descarta porque aquí sí hay roce y contacto, no inducción.
+
+D) contacto.
+El contacto, dicho de forma general, puede sonar parecido a conducción.
+Pero el ejemplo típico de caminar sobre alfombra y cargarte eléctricamente se explica en Física escolar como electrización por frotamiento.
+Puede confundir porque sí estás tocando la alfombra con los tenis, pero la palabra correcta y más precisa es frotamiento.
+Se descarta porque la opción más exacta es la A.
+
+Opción correcta:
+A) frotamiento.
+
+Argumento:
+Cuando dos materiales se rozan, como los tenis con la alfombra o ciertas telas con el cuerpo, puede haber transferencia de electrones.
+Eso hace que uno quede con más carga negativa y otro con menos.
+Ese fenómeno produce electricidad estática y se llama electrización por frotamiento.
+Por eso esa es la respuesta correcta.
+
+Pista:
+Piensa en la palabra que mejor describe “rozar” materiales entre sí. Esa es la forma de electrización que aparece aquí.
+
+---
+---
+
+Temática del ejercicio: Magnetismo, brújula y campo magnético terrestre
+
+Reactivo: 111
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+La aguja de la brújula apunta siempre al norte porque
+
+Opciones:
+A) en el polo norte hay mayor fuerza.
+B) en el polo norte hay mayor cantidad de hierro.
+C) en el polo norte el magnetismo es más intenso.
+D) la aguja se alinea en la dirección del campo magnético de la tierra.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar por qué una brújula señala hacia el norte.
+
+Desarrollo y descarte de opciones:
+
+A) en el polo norte hay mayor fuerza.
+Esta opción suena lógica a primera vista, pero está mal.
+No se trata de que en el norte “haya más fuerza” de forma general.
+La brújula funciona porque responde a un campo magnético.
+Puede confundir porque usa una palabra amplia, “fuerza”, pero no explica el fenómeno correcto.
+Se descarta porque no da la causa física correcta.
+
+B) en el polo norte hay mayor cantidad de hierro.
+Esta opción está mal.
+La brújula no apunta al norte por buscar hierro.
+Además, aunque la Tierra tiene materiales metálicos en su interior, la explicación escolar correcta no es esa.
+Puede confundir porque el hierro sí se relaciona con imanes, pero aquí el punto central es el campo magnético terrestre.
+Se descarta porque da una causa equivocada.
+
+C) en el polo norte el magnetismo es más intenso.
+Esta opción parece cercana, pero no es la mejor.
+La brújula no apunta al norte solo porque “allá haya más magnetismo”.
+Lo correcto es que la aguja, por ser un pequeño imán, se orienta siguiendo la dirección del campo magnético de la Tierra.
+Puede confundir porque menciona el magnetismo, pero lo explica de forma incompleta.
+Se descarta porque la opción D es más precisa.
+
+D) la aguja se alinea en la dirección del campo magnético de la tierra.
+Esta opción sí describe correctamente lo que pasa.
+La aguja de la brújula es como un pequeño imán.
+Por eso gira hasta acomodarse en la misma dirección del campo magnético terrestre.
+Se conserva porque explica bien el fenómeno.
+
+Opción correcta:
+D) la aguja se alinea en la dirección del campo magnético de la tierra.
+
+Argumento:
+La Tierra actúa como un gran imán y genera un campo magnético.
+La aguja de la brújula también es magnética, así que se acomoda siguiendo esa dirección.
+Por eso apunta hacia la orientación norte-sur y sirve para ubicarse.
+La respuesta correcta no depende de hierro ni de una fuerza mal definida, sino de la alineación con el campo magnético terrestre.
+
+Pista:
+Piensa en la brújula como un imán pequeño. Un imán pequeño siempre tiende a orientarse según el campo magnético que lo rodea.
+
+---
+---
+
+Temática del ejercicio: Teoría cinética de los gases
+
+Reactivo: 112
+Fuente: Guía 1
+
+Planteamiento del problema:
+El enunciado que supone que las moléculas de un gas están muy separadas, se mueven en trayectorias rectilíneas, y que al chocar unas con otras o con las paredes del recipiente que las contiene corresponde a la
+
+Opciones:
+A) Teoría cinética de los gases.
+B) Ley de Charles.
+C) Ley general del estado gaseoso.
+D) Ley de Gay-Lussac.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué concepto físico describe ese comportamiento de las moléculas de un gas.
+
+Desarrollo y descarte de opciones:
+
+A) Teoría cinética de los gases.
+Esta opción sí se relaciona directamente con el tema.
+La teoría cinética explica a los gases como partículas muy separadas, en movimiento continuo, que chocan entre sí y con las paredes del recipiente.
+Eso coincide exactamente con lo que dice el enunciado.
+Se conserva porque describe justo esa idea.
+
+B) Ley de Charles.
+Esta ley sí habla de gases, pero no describe cómo se mueven las moléculas.
+La Ley de Charles relaciona volumen y temperatura cuando la presión permanece constante.
+Puede confundir porque también pertenece al tema de gases, pero no explica trayectorias ni choques moleculares.
+Se descarta porque no corresponde a la descripción dada.
+
+C) Ley general del estado gaseoso.
+Esta opción también trata de gases, pero se enfoca en la relación entre presión, volumen y temperatura.
+No explica de manera directa que las moléculas estén separadas ni que choquen con las paredes del recipiente.
+Puede confundir porque suena amplia y completa, pero no es la descripción microscópica que pide el reactivo.
+Se descarta porque el enunciado no habla de fórmulas entre variables, sino del modelo de partículas.
+
+D) Ley de Gay-Lussac.
+Esta ley relaciona presión y temperatura en ciertas condiciones.
+Igual que las otras leyes de gases, no se enfoca en describir el movimiento rectilíneo de las moléculas ni sus choques.
+Puede confundir porque pertenece al mismo bloque temático.
+Se descarta porque no coincide con la idea central del enunciado.
+
+Opción correcta:
+A) Teoría cinética de los gases.
+
+Argumento:
+La teoría cinética de los gases propone que un gas está formado por partículas muy pequeñas que se mueven constantemente.
+Además, considera que esas partículas están muy separadas y que chocan entre sí y contra las paredes del recipiente.
+Eso es exactamente lo que describe el reactivo.
+Las otras opciones sí son leyes de gases, pero hablan de relaciones entre variables como presión, volumen y temperatura, no del comportamiento de las moléculas.
+
+Pista:
+Si el reactivo habla de cómo se imaginan o explican las partículas de un gas, no está pidiendo una ley de fórmula, sino un modelo.
+
+---
+---
+
+Temática del ejercicio: Calor y temperatura
+
+Reactivo: 113
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+113. Elige la opción que define correctamente la diferencia básica entre calor y temperatura, en un nivel macroscópico.
+
+Opciones:
+A) La temperatura se refiere a las sensaciones de calor o frío, mientras que el calor es lo que mide el termómetro cuando entran en contacto dos cuerpos con diferente temperatura.
+B) La temperatura es lo que mide el termómetro, mientras que el calor es la energía no-mecánica que se transfiere de un cuerpo de mayor a uno de menor temperatura.
+C) El termómetro mide grados de temperatura, mientras que el calor es la sensación de mayor calor o frío entre dos cuerpos a diferente temperatura.
+D) El calor es lo que mide el termómetro, mientras que la temperatura es energía que se transfiere entre dos cuerpos en contacto a diferentes temperaturas.
+
+Qué pide resolver el ejercicio:
+Aquí hay que distinguir correctamente qué es temperatura y qué es calor.
+
+Desarrollo y descarte de opciones:
+
+A) La temperatura se refiere a las sensaciones de calor o frío, mientras que el calor es lo que mide el termómetro cuando entran en contacto dos cuerpos con diferente temperatura.
+Esta opción mezcla ideas incorrectas.
+La temperatura no se define solo como sensación de calor o frío. Esa sensación puede orientar, pero no es la definición física.
+Además, el termómetro mide temperatura, no calor.
+Puede confundir porque usa palabras que sí relacionamos en la vida diaria, pero en Física no significan lo mismo.
+Se descarta porque define mal ambos conceptos.
+
+B) La temperatura es lo que mide el termómetro, mientras que el calor es la energía no-mecánica que se transfiere de un cuerpo de mayor a uno de menor temperatura.
+Esta opción sí coincide con el tema.
+La temperatura es una medida del estado térmico de un cuerpo y sí se mide con termómetro.
+El calor no es algo que “se guarda” igual que la temperatura, sino energía que se transfiere cuando hay diferencia de temperatura.
+Se conserva porque describe correctamente la diferencia.
+
+C) El termómetro mide grados de temperatura, mientras que el calor es la sensación de mayor calor o frío entre dos cuerpos a diferente temperatura.
+La primera parte va bien porque el termómetro sí mide temperatura.
+Pero la segunda parte está mal, porque el calor no es una sensación.
+El calor es transferencia de energía.
+Puede confundir porque en lenguaje diario decimos “siento calor”, pero eso no es la definición física.
+Se descarta porque define mal el calor.
+
+D) El calor es lo que mide el termómetro, mientras que la temperatura es energía que se transfiere entre dos cuerpos en contacto a diferentes temperaturas.
+Esta opción está completamente invertida.
+El termómetro no mide calor, mide temperatura.
+Y la energía que se transfiere entre cuerpos con diferente temperatura es el calor, no la temperatura.
+Puede confundir porque menciona los dos conceptos correctos, pero los cambia de lugar.
+Se descarta porque invierte las definiciones.
+
+Opción correcta:
+B) La temperatura es lo que mide el termómetro, mientras que el calor es la energía no-mecánica que se transfiere de un cuerpo de mayor a uno de menor temperatura.
+
+Argumento:
+La temperatura indica qué tan caliente o frío está un cuerpo y eso se mide con un termómetro.
+El calor, en cambio, es energía que pasa de un cuerpo más caliente a otro más frío cuando existe diferencia de temperatura.
+Por eso no son lo mismo.
+La opción B es la única que separa bien ambos conceptos y los explica sin confundir sensación, medición y transferencia de energía.
+
+Pista:
+Pregúntate esto: ¿qué mide el termómetro y qué cosa pasa de un cuerpo caliente a otro más frío?
+
+---
+---
+
+Temática del ejercicio: Campo magnético generado por corriente eléctrica
+
+Reactivo: 114
+Fuente: Guía 1
+
+Planteamiento del problema:
+¿En cuáles de los siguientes casos se puede generar un campo magnético?
+
+I. Pasando una corriente eléctrica a través de un conductor.
+II. Enrollando un alambre sobre un clavo y pasando una corriente eléctrica a través de éste.
+III. Impidiendo el paso de la corriente eléctrica sobre un conductor.
+IV. A través de la acción de una carga puntual en reposo.
+
+Opciones:
+A) II, IV
+B) III, IV
+C) I, III
+D) I, II
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar en cuáles casos sí se genera un campo magnético.
+
+Desarrollo y descarte de opciones:
+
+Primero revisamos cada enunciado:
+
+I. Pasando una corriente eléctrica a través de un conductor.
+Sí genera un campo magnético.
+Cuando una corriente eléctrica circula por un conductor, alrededor de ese conductor aparece un campo magnético.
+Este sí se conserva.
+
+II. Enrollando un alambre sobre un clavo y pasando una corriente eléctrica a través de éste.
+Sí genera un campo magnético.
+Aquí se forma algo parecido a un electroimán.
+La corriente en el alambre produce un campo magnético y el clavo puede magnetizarse.
+Este también se conserva.
+
+III. Impidiendo el paso de la corriente eléctrica sobre un conductor.
+No genera un campo magnético.
+Si no pasa corriente, no se produce el campo magnético asociado al movimiento de cargas.
+Puede confundir porque habla de conductor, pero aquí justamente se está bloqueando la corriente.
+Se descarta.
+
+IV. A través de la acción de una carga puntual en reposo.
+No genera un campo magnético.
+Una carga en reposo produce campo eléctrico, no campo magnético.
+Para que aparezca campo magnético, la carga debe estar en movimiento.
+Se descarta.
+
+Ahora revisamos las opciones:
+
+A) II, IV
+Está mal.
+II sí, pero IV no.
+
+B) III, IV
+Está mal.
+Ni III ni IV generan campo magnético.
+
+C) I, III
+Está mal.
+I sí, pero III no.
+
+D) I, II
+Está bien.
+Los dos casos sí generan campo magnético.
+
+Opción correcta:
+D) I, II
+
+Argumento:
+El campo magnético se genera cuando hay cargas eléctricas en movimiento, o sea, cuando hay corriente eléctrica.
+Por eso el caso I sí funciona.
+También el caso II, porque un alambre enrollado con corriente produce un campo magnético más evidente, como en un electroimán.
+En cambio, si se impide la corriente o si la carga está en reposo, no se genera ese campo magnético.
+
+Pista:
+Fíjate en esta idea: campo magnético y corriente eléctrica van juntos. Si no hay movimiento de cargas, no aparece ese campo.
+
+---
+---
+
+Temática del ejercicio: Movimiento ondulatorio
+
+Reactivo: 115
+Fuente: Guía 1
+
+Planteamiento del problema:
+115. El movimiento ondulatorio es un proceso por medio del cual se transmite
+
+Opciones:
+A) energía.
+B) átomos.
+C) moléculas.
+D) partículas.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué es lo que realmente transmite una onda.
+
+Desarrollo y descarte de opciones:
+
+A) energía.
+Esta opción sí se relaciona directamente con el movimiento ondulatorio.
+Una onda transporta energía de un lugar a otro.
+Por ejemplo, cuando una bocina produce sonido, la onda sonora lleva energía a través del aire.
+Se conserva porque eso es lo que define a una onda.
+
+B) átomos.
+Esta opción está mal.
+En una onda no viajan los átomos de un lugar a otro junto con la perturbación.
+Puede confundir porque en algunos medios, como una cuerda o el agua, sí vemos movimiento de materia, pero esa materia solo oscila en su lugar.
+Se descarta porque la onda no transporta átomos completos de manera continua.
+
+C) moléculas.
+Esta opción también está mal.
+Las moléculas del medio pueden vibrar o moverse un poco, pero no son lo que se transmite de un extremo al otro.
+Puede confundir porque en el sonido las moléculas del aire participan, pero lo que avanza es la perturbación, no las moléculas viajando todas hasta el final.
+Se descarta porque no es lo que transmite una onda.
+
+D) partículas.
+Esta opción es incorrecta en este contexto.
+El reactivo habla de movimiento ondulatorio, y la idea escolar correcta es que una onda transmite energía.
+Puede confundir porque algunas personas asocian fenómenos físicos con partículas, pero aquí no es la respuesta precisa.
+Se descarta porque la definición correcta es transmisión de energía.
+
+Opción correcta:
+A) energía.
+
+Argumento:
+El movimiento ondulatorio consiste en una perturbación que se propaga.
+Esa propagación lleva energía de un punto a otro, pero no transporta materia de forma permanente.
+Por eso, cuando una onda pasa, el medio puede vibrar o moverse un poco, pero lo que realmente se transmite es la energía.
+
+Pista:
+Piensa en una cuerda que agitas: la cuerda no se va completa hacia adelante, lo que avanza es el efecto del movimiento.
+
+---
+---
+
+Temática del ejercicio: Luz visible y longitud de onda
+
+Reactivo: 116
+Fuente: Guía 1
+
+Planteamiento del problema:
+116. ¿Qué color de la luz visible tiene mayor longitud de onda?
+
+Opciones:
+A) Amarillo.
+B) Verde.
+C) Azul.
+D) Rojo.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué color de la luz visible tiene la longitud de onda más grande.
+
+Desarrollo y descarte de opciones:
+
+A) Amarillo.
+Esta opción sí pertenece al espectro visible.
+Puede confundir porque está más hacia la zona de colores cálidos, pero no es el color con mayor longitud de onda.
+Se descarta porque aunque su longitud de onda es mayor que la del azul y la del verde, sigue siendo menor que la del rojo.
+
+B) Verde.
+Esta opción también pertenece al espectro visible.
+Puede confundir porque está en una zona media del espectro, pero justamente por eso no es la mayor.
+Se descarta porque su longitud de onda es intermedia.
+
+C) Azul.
+Esta opción está del lado de longitudes de onda más pequeñas dentro de la luz visible.
+Puede confundir porque a veces se asocia con luz intensa o llamativa, pero eso no significa mayor longitud de onda.
+Se descarta porque el azul tiene menor longitud de onda que el rojo, el amarillo y el verde.
+
+D) Rojo.
+Esta opción sí es la correcta.
+Dentro del espectro visible, el rojo es el color con mayor longitud de onda.
+Se conserva porque coincide con la propiedad física que pide el reactivo.
+
+Opción correcta:
+D) Rojo.
+
+Argumento:
+En la luz visible, los colores van cambiando en su longitud de onda.
+Hacia un extremo están colores como el violeta y el azul, que tienen longitudes de onda menores.
+Hacia el otro extremo está el rojo, que tiene la mayor longitud de onda de la luz visible.
+Por eso la respuesta correcta es rojo.
+
+Pista:
+Piensa en los extremos del arcoíris: un extremo tiene las longitudes de onda menores y el otro las mayores. El rojo queda en el extremo de las mayores.
+
+---
+---
+---
