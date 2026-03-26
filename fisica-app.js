@@ -3,11 +3,10 @@
   const GUIDES = DATA.guides || [];
   const TOPICS = DATA.topics || [];
   const GUIDE_ORDER = Object.fromEntries(GUIDES.map((guide, index) => [guide.id, index]));
-  const STATE = { view: 'inicio', guide: 'all', topic: 'all', query: '' };
+  const STATE = { view: 'todos', guide: 'all', topic: 'all', query: '' };
   const CARD_STATE = {};
 
   const VIEWS = [
-    { id: 'inicio', label: 'Inicio' },
     { id: 'guia-1', label: 'Guía 1' },
     { id: 'guia-2', label: 'Guía 2' },
     { id: 'temas', label: 'Temas' },
@@ -558,9 +557,9 @@
   }
 
   function renderTopicChips(list) {
-    const visibleTopics = STATE.view === 'inicio'
-      ? TOPICS
-      : TOPICS.filter((topic) => list.some((exercise) => exercise.topicId === topic.id) || STATE.topic === topic.id);
+    const visibleTopics = TOPICS.filter((topic) =>
+      list.some((exercise) => exercise.topicId === topic.id) || STATE.topic === topic.id
+    );
 
     return [
       chip('Todos los temas', STATE.topic === 'all', 'topic', { 'data-topic': 'all' }),
@@ -584,12 +583,6 @@
     byId('guideChips').innerHTML = renderGuideChips();
     byId('topicChips').innerHTML = renderTopicChips(list);
     byId('metrics').innerHTML = renderMetrics(list);
-
-    if (STATE.view === 'inicio') {
-      byId('content').innerHTML = home();
-      byId('empty').hidden = true;
-      return;
-    }
 
     if (!list.length) {
       byId('content').innerHTML = '';
@@ -624,13 +617,9 @@
     const action = node.dataset.action;
 
     if (action === 'view') {
-      STATE.view = node.dataset.view || 'inicio';
+      STATE.view = node.dataset.view || 'todos';
       if (STATE.view === 'guia-1') STATE.guide = 'guia-1';
       if (STATE.view === 'guia-2') STATE.guide = 'guia-2';
-      if (STATE.view === 'inicio') {
-        STATE.guide = 'all';
-        STATE.topic = 'all';
-      }
       render();
       return;
     }
@@ -639,14 +628,13 @@
       STATE.guide = node.dataset.guide || 'all';
       if (STATE.guide === 'guia-1' || STATE.guide === 'guia-2') STATE.view = STATE.guide;
       else if (STATE.view === 'guia-1' || STATE.view === 'guia-2') STATE.view = 'todos';
-      if (STATE.view === 'inicio') STATE.view = 'todos';
       render();
       return;
     }
 
     if (action === 'topic') {
       STATE.topic = node.dataset.topic || 'all';
-      if (STATE.view === 'inicio') STATE.view = 'temas';
+      if (STATE.view !== 'temas') STATE.view = 'temas';
       render();
       return;
     }
@@ -698,7 +686,6 @@
 
   byId('searchInput').addEventListener('input', (event) => {
     STATE.query = event.target.value || '';
-    if (STATE.view === 'inicio' && STATE.query.trim()) STATE.view = 'todos';
     render();
   });
 
