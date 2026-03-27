@@ -73,6 +73,10 @@ const REACTIVE_OVERRIDES = {
           chartType: 'polyline',
           xLabel: 'Tiempo (s)',
           yLabel: 'Posición (m)',
+          xMax: 4,
+          yMax: 10,
+          xStep: 1,
+          yStep: 1,
           points: [
             [0, 0],
             [1, 1],

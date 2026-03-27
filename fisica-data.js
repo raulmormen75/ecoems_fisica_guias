@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Física",
     "subject": "Física",
     "version": "1.0.0",
-    "generatedAt": "2026-03-26 23:31:58",
+    "generatedAt": "2026-03-26 23:41:41",
     "totalExercises": 24,
     "topicCount": 24
   },
@@ -421,6 +421,10 @@ window.IFR_APP_DATA = {
                 "chartType": "polyline",
                 "xLabel": "Tiempo (s)",
                 "yLabel": "Posición (m)",
+                "xMax": 4,
+                "yMax": 10,
+                "xStep": 1,
+                "yStep": 1,
                 "points": [
                   [
                     0,
