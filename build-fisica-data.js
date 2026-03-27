@@ -131,6 +131,10 @@ const REACTIVE_OVERRIDES = {
       approximate: true,
       xLabel: 'Tiempo (s)',
       yLabel: 'Distancia (m)',
+      xMax: 30,
+      yMax: 120,
+      xStep: 5,
+      yStep: 20,
       points: [
         [0, 0],
         [5, 20],
