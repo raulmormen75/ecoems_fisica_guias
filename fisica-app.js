@@ -225,15 +225,11 @@
       : [[0, 0.9], [1, 1.1], [2, 1.7], [3, 2.9], [4, 4.2]];
   }
 
-  function customTicks(maxValue, step, compact) {
+  function customTicks(maxValue, step) {
     if (!step || !maxValue || maxValue <= 0) return [];
     const ticks = [];
     for (let v = step; v <= maxValue; v = Number((v + step).toFixed(4))) {
       ticks.push(Number(v.toFixed(4)));
-    }
-    if (compact && ticks.length > 5) {
-      const factor = Math.ceil(ticks.length / 5);
-      return ticks.filter((_, i) => (i + 1) % factor === 0 || i === ticks.length - 1);
     }
     return ticks;
   }
@@ -243,8 +239,8 @@
     const width = compact ? 190 : 360;
     const height = compact ? 150 : 220;
     const padding = compact
-      ? { top: 12, right: 12, bottom: 26, left: 28 }
-      : { top: 16, right: 18, bottom: 34, left: 40 };
+      ? { top: 12, right: 18, bottom: 36, left: 34 }
+      : { top: 16, right: 24, bottom: 42, left: 44 };
     const plotWidth = width - padding.left - padding.right;
     const plotHeight = height - padding.top - padding.bottom;
     const points = (spec.points && spec.points.length ? spec.points : defaultMotionPoints(spec)).map((entry) => [
@@ -259,8 +255,8 @@
     const scaleX = (value) => padding.left + ((value - minX) / (maxX - minX || 1)) * plotWidth;
     const scaleY = (value) => padding.top + plotHeight - ((value - minY) / (maxY - minY || 1)) * plotHeight;
     const path = chartPath(points, scaleX, scaleY);
-    const xTicks = spec.xStep ? customTicks(maxX, spec.xStep, compact) : axisTicks(maxX, compact ? 3 : 4);
-    const yTicks = spec.yStep ? customTicks(maxY, spec.yStep, compact) : axisTicks(maxY, compact ? 3 : 4);
+    const xTicks = spec.xStep ? customTicks(maxX, spec.xStep) : axisTicks(maxX, compact ? 3 : 4);
+    const yTicks = spec.yStep ? customTicks(maxY, spec.yStep) : axisTicks(maxY, compact ? 3 : 4);
 
     return `
       <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(spec.title || 'Gráfica del reactivo')}">
@@ -271,7 +267,7 @@
           .map((tick) => `
             <g>
               <line x1="${padding.left - 4}" y1="${scaleY(tick)}" x2="${width - padding.right}" y2="${scaleY(tick)}" class="chart-grid"></line>
-              <text x="${padding.left - 8}" y="${scaleY(tick) + 4}" text-anchor="end" class="chart-tick">${esc(tick)}</text>
+              <text x="${padding.left - 6}" y="${scaleY(tick) + 4}" text-anchor="end" class="chart-tick">${esc(tick)}</text>
             </g>
           `)
           .join('')}
@@ -279,7 +275,7 @@
           .map((tick) => `
             <g>
               <line x1="${scaleX(tick)}" y1="${height - padding.bottom}" x2="${scaleX(tick)}" y2="${padding.top}" class="chart-grid"></line>
-              <text x="${scaleX(tick)}" y="${height - padding.bottom + 16}" text-anchor="middle" class="chart-tick">${esc(tick)}</text>
+              <text x="${scaleX(tick)}" y="${height - padding.bottom + 14}" text-anchor="middle" class="chart-tick">${esc(tick)}</text>
             </g>
           `)
           .join('')}
@@ -289,8 +285,8 @@
             ([x, y]) => `<circle cx="${scaleX(x)}" cy="${scaleY(y)}" r="${compact ? 3 : 4}" class="chart-point"></circle>`
           )
           .join('')}
-        ${spec.yLabel ? `<text x="${padding.left - 20}" y="${padding.top + 6}" class="chart-label chart-label-y">${esc(spec.yLabel)}</text>` : ''}
-        ${spec.xLabel ? `<text x="${width - padding.right}" y="${height - 8}" text-anchor="end" class="chart-label">${esc(spec.xLabel)}</text>` : ''}
+        ${spec.yLabel ? `<text x="${-(padding.top + plotHeight / 2)}" y="${padding.left - 24}" transform="rotate(-90)" text-anchor="middle" class="chart-label chart-label-y">${esc(spec.yLabel)}</text>` : ''}
+        ${spec.xLabel ? `<text x="${padding.left + plotWidth / 2}" y="${height - 6}" text-anchor="middle" class="chart-label">${esc(spec.xLabel)}</text>` : ''}
       </svg>
     `;
   }
