@@ -225,6 +225,19 @@
       : [[0, 0.9], [1, 1.1], [2, 1.7], [3, 2.9], [4, 4.2]];
   }
 
+  function customTicks(maxValue, step, compact) {
+    if (!step || !maxValue || maxValue <= 0) return [];
+    const ticks = [];
+    for (let v = step; v <= maxValue; v = Number((v + step).toFixed(4))) {
+      ticks.push(Number(v.toFixed(4)));
+    }
+    if (compact && ticks.length > 5) {
+      const factor = Math.ceil(ticks.length / 5);
+      return ticks.filter((_, i) => (i + 1) % factor === 0 || i === ticks.length - 1);
+    }
+    return ticks;
+  }
+
   function renderChartSvg(spec, options = {}) {
     const compact = !!options.compact;
     const width = compact ? 190 : 360;
@@ -240,14 +253,14 @@
     ]);
     const minX = 0;
     const minY = 0;
-    const maxX = Math.max(...points.map((point) => point[0]), 1);
-    const maxY = Math.max(...points.map((point) => point[1]), 1);
+    const maxX = spec.xMax != null ? Number(spec.xMax) : Math.max(...points.map((point) => point[0]), 1);
+    const maxY = spec.yMax != null ? Number(spec.yMax) : Math.max(...points.map((point) => point[1]), 1);
 
     const scaleX = (value) => padding.left + ((value - minX) / (maxX - minX || 1)) * plotWidth;
     const scaleY = (value) => padding.top + plotHeight - ((value - minY) / (maxY - minY || 1)) * plotHeight;
     const path = chartPath(points, scaleX, scaleY);
-    const xTicks = axisTicks(maxX, compact ? 3 : 4);
-    const yTicks = axisTicks(maxY, compact ? 3 : 4);
+    const xTicks = spec.xStep ? customTicks(maxX, spec.xStep, compact) : axisTicks(maxX, compact ? 3 : 4);
+    const yTicks = spec.yStep ? customTicks(maxY, spec.yStep, compact) : axisTicks(maxY, compact ? 3 : 4);
 
     return `
       <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(spec.title || 'Gráfica del reactivo')}">
