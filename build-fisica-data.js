@@ -28,7 +28,6 @@ const REACTIVE_OVERRIDES = {
     visualSpec: {
       type: 'table-and-option-graphs',
       title: 'Tabla y opciones gráficas',
-      promptNote: 'El enunciado original no se ve completo en la fuente. Solo se conserva la información visible.',
       table: {
         columns: ['Tiempo (s)', 'Posición (m)'],
         rows: [
@@ -87,10 +86,7 @@ const REACTIVE_OVERRIDES = {
           ]
         }
       ]
-    },
-    sourceNotes: [
-      'El enunciado original no se ve completo en la fuente; la reconstrucción se limita a la información visible del txt.'
-    ]
+    }
   },
   'guia-1-107': {
     reactiveType: 'velocity-time-graph',

@@ -63,16 +63,7 @@ Reactivo: 106
 Fuente: Captura compartida por el usuario
 
 Planteamiento del problema:
-No se alcanza a ver completo el enunciado del reactivo en la imagen.
-Lo que sí se ve es una tabla con los siguientes datos:
-
-Tiempo (s) | Posición (m)
-0          | 0
-1          | 1
-2          | 4
-3          | 9
-
-También se observan cuatro gráficas como opciones de respuesta, etiquetadas como A), B), C) y D).
+Elige la gráfica que representa la siguiente tabla de datos.
 
 Opciones:
 A) Gráfica de posición (km) contra tiempo (h), con puntos aproximados en:

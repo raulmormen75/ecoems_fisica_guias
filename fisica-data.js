@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Física",
     "subject": "Física",
     "version": "1.0.0",
-    "generatedAt": "2026-03-25 23:13:19",
+    "generatedAt": "2026-03-26 22:47:03",
     "totalExercises": 24,
     "topicCount": 24
   },
@@ -285,21 +285,12 @@ window.IFR_APP_DATA = {
           "order": 2,
           "sourceOrder": 2,
           "source": "Captura compartida por el usuario",
-          "sourceNotes": [
-            "El enunciado original no se ve completo en la fuente; la reconstrucción se limita a la información visible del txt."
-          ],
+          "sourceNotes": [],
           "topic": "Interpretación de tablas de datos y gráficas posición-tiempo",
           "topicId": "interpretacion-de-tablas-de-datos-y-graficas-posicion-tiempo",
-          "question": "No se alcanza a ver completo el enunciado del reactivo en la imagen.\nLo que sí se ve es una tabla con los siguientes datos:\nTiempo (s) | Posición (m)\n0 | 0\n1 | 1\n2 | 4\n3 | 9\nTambién se observan cuatro gráficas como opciones de respuesta, etiquetadas como A), B), C) y D).",
+          "question": "Elige la gráfica que representa la siguiente tabla de datos.",
           "questionLines": [
-            "No se alcanza a ver completo el enunciado del reactivo en la imagen.",
-            "Lo que sí se ve es una tabla con los siguientes datos:",
-            "Tiempo (s) | Posición (m)",
-            "0 | 0",
-            "1 | 1",
-            "2 | 4",
-            "3 | 9",
-            "También se observan cuatro gráficas como opciones de respuesta, etiquetadas como A), B), C) y D)."
+            "Elige la gráfica que representa la siguiente tabla de datos."
           ],
           "options": [
             {
@@ -352,7 +343,6 @@ window.IFR_APP_DATA = {
           "visualSpec": {
             "type": "table-and-option-graphs",
             "title": "Tabla y opciones gráficas",
-            "promptNote": "El enunciado original no se ve completo en la fuente. Solo se conserva la información visible.",
             "table": {
               "columns": [
                 "Tiempo (s)",
