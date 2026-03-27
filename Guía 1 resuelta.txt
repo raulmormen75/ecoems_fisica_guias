@@ -133,14 +133,9 @@ Reactivo: 107
 Fuente: Guía 1
 
 Planteamiento del problema:
-Un automóvil realiza un viaje como el que ilustra la gráfica que a continuación se presenta, ¿cuál de las opciones describe las características de éste?
-
-La gráfica muestra velocidad \(v\) en km/h en el eje vertical y tiempo \(t\) en horas en el eje horizontal.
-Se observa lo siguiente:
-- En \(t=0\), el automóvil inicia con velocidad \(0\).
-- De \(t=0\) a \(t=1\), la velocidad aumenta hasta \(60\ \text{km/h}\).
-- De \(t=1\) a \(t=3\), la velocidad se mantiene constante en \(60\ \text{km/h}\).
-- De \(t=3\) a \(t=4\), la velocidad disminuye hasta \(0\).
+Un automóvil realiza un viaje como el que ilustra la gráfica que a
+continuación se presenta, ¿cuál de las opciones describe las
+características de éste?
 
 Opciones:
 A) El automóvil inició su recorrido en el reposo incrementando la velocidad hasta 60 km/h en una hora, mantuvo esta velocidad durante las siguientes tres horas, tiempo en el cual llegó al punto en que inició su recorrido.

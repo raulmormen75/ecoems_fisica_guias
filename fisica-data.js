@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Física",
     "subject": "Física",
     "version": "1.0.0",
-    "generatedAt": "2026-03-26 23:44:22",
+    "generatedAt": "2026-03-27 13:15:18",
     "totalExercises": 24,
     "topicCount": 24
   },
@@ -498,15 +498,11 @@ window.IFR_APP_DATA = {
           "sourceNotes": [],
           "topic": "Interpretación de gráficas velocidad-tiempo",
           "topicId": "interpretacion-de-graficas-velocidad-tiempo",
-          "question": "Un automóvil realiza un viaje como el que ilustra la gráfica que a continuación se presenta, ¿cuál de las opciones describe las características de éste?\nLa gráfica muestra velocidad v en km/h en el eje vertical y tiempo t en horas en el eje horizontal.\nSe observa lo siguiente:\n- En t=0, el automóvil inicia con velocidad 0.\n- De t=0 a t=1, la velocidad aumenta hasta 60 km/h.\n- De t=1 a t=3, la velocidad se mantiene constante en 60 km/h.\n- De t=3 a t=4, la velocidad disminuye hasta 0.",
+          "question": "Un automóvil realiza un viaje como el que ilustra la gráfica que a\ncontinuación se presenta, ¿cuál de las opciones describe las\ncaracterísticas de éste?",
           "questionLines": [
-            "Un automóvil realiza un viaje como el que ilustra la gráfica que a continuación se presenta, ¿cuál de las opciones describe las características de éste?",
-            "La gráfica muestra velocidad v en km/h en el eje vertical y tiempo t en horas en el eje horizontal.",
-            "Se observa lo siguiente:",
-            "- En t=0, el automóvil inicia con velocidad 0.",
-            "- De t=0 a t=1, la velocidad aumenta hasta 60 km/h.",
-            "- De t=1 a t=3, la velocidad se mantiene constante en 60 km/h.",
-            "- De t=3 a t=4, la velocidad disminuye hasta 0."
+            "Un automóvil realiza un viaje como el que ilustra la gráfica que a",
+            "continuación se presenta, ¿cuál de las opciones describe las",
+            "características de éste?"
           ],
           "options": [
             {
