@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Física",
     "subject": "Física",
     "version": "1.0.0",
-    "generatedAt": "2026-03-27 13:15:18",
+    "generatedAt": "2026-03-27 14:05:21",
     "totalExercises": 24,
     "topicCount": 24
   },
@@ -498,11 +498,9 @@ window.IFR_APP_DATA = {
           "sourceNotes": [],
           "topic": "Interpretación de gráficas velocidad-tiempo",
           "topicId": "interpretacion-de-graficas-velocidad-tiempo",
-          "question": "Un automóvil realiza un viaje como el que ilustra la gráfica que a\ncontinuación se presenta, ¿cuál de las opciones describe las\ncaracterísticas de éste?",
+          "question": "Un automóvil realiza un viaje como el que ilustra la gráfica que a continuación se presenta, ¿cuál de las opciones describe las características de éste?",
           "questionLines": [
-            "Un automóvil realiza un viaje como el que ilustra la gráfica que a",
-            "continuación se presenta, ¿cuál de las opciones describe las",
-            "características de éste?"
+            "Un automóvil realiza un viaje como el que ilustra la gráfica que a continuación se presenta, ¿cuál de las opciones describe las características de éste?"
           ],
           "options": [
             {
