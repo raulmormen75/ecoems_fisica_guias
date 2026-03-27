@@ -89,6 +89,10 @@ const REACTIVE_OVERRIDES = {
           chartType: 'curve',
           xLabel: 'Tiempo (s)',
           yLabel: 'Posición (m)',
+          xMax: 5,
+          yMax: 80,
+          xStep: 1,
+          yStep: 20,
           points: [
             [0, 80],
             [1, 64],
