@@ -109,8 +109,12 @@ const REACTIVE_OVERRIDES = {
     visualSpec: {
       type: 'velocity-time-graph',
       title: 'Gráfica velocidad-tiempo',
-      xLabel: 'Tiempo (h)',
-      yLabel: 'Velocidad (km/h)',
+      xLabel: 't (h)',
+      yLabel: 'v (km/h)',
+      xMax: 4,
+      yMax: 80,
+      xStep: 1,
+      yStep: 20,
       points: [
         [0, 0],
         [1, 60],

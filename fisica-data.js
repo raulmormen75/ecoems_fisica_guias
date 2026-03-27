@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Física",
     "subject": "Física",
     "version": "1.0.0",
-    "generatedAt": "2026-03-27 14:05:21",
+    "generatedAt": "2026-03-27 14:10:44",
     "totalExercises": 24,
     "topicCount": 24
   },
@@ -553,8 +553,12 @@ window.IFR_APP_DATA = {
           "visualSpec": {
             "type": "velocity-time-graph",
             "title": "Gráfica velocidad-tiempo",
-            "xLabel": "Tiempo (h)",
-            "yLabel": "Velocidad (km/h)",
+            "xLabel": "t (h)",
+            "yLabel": "v (km/h)",
+            "xMax": 4,
+            "yMax": 80,
+            "xStep": 1,
+            "yStep": 20,
             "points": [
               [
                 0,
