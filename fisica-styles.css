@@ -441,6 +441,9 @@ main{padding:22px 0 36px}
   grid-template-columns:repeat(2,minmax(0,1fr));
   gap:12px;
 }
+.mini-chart-grid.abstract-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
 .mini-chart-card{
   display:grid;
   gap:10px;
@@ -682,6 +685,7 @@ main{padding:22px 0 36px}
   .top-stats{width:100%}
   .hero,.panel,.section,.filter-panel,.card,.empty{padding:18px}
   .guide-notes,.hero-grid,.sum,.rows,.mini-chart-grid,.visual-grid.split{grid-template-columns:1fr}
+  .mini-chart-grid.abstract-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .hero-nav{border-radius:24px;padding:14px 16px}
   .hero-fox{width:min(100%,360px)}
   .problem-head{align-items:flex-start}

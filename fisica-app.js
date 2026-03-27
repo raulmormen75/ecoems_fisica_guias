@@ -356,7 +356,7 @@
             <h4>${esc(spec.title)}</h4>
           </div>
         </div>
-        <div class="mini-chart-grid">
+        <div class="mini-chart-grid abstract-grid">
           ${spec.charts
             .map(
               (chart) => `
