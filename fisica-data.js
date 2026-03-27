@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Física",
     "subject": "Física",
     "version": "1.0.0",
-    "generatedAt": "2026-03-27 14:10:44",
+    "generatedAt": "2026-03-27 14:38:33",
     "totalExercises": 24,
     "topicCount": 24
   },
@@ -1257,19 +1257,9 @@ window.IFR_APP_DATA = {
           ],
           "topic": "Interpretación de gráficas posición-tiempo y movimiento rectilíneo uniforme",
           "topicId": "interpretacion-de-graficas-posicion-tiempo-y-movimiento-rectilineo-uniforme",
-          "question": "La siguiente gráfica muestra la relación entre la distancia recorrida por un móvil y el tiempo empleado en alcanzar cada una de estas posiciones. A partir de esta información podemos afirmar que:\nLa gráfica tiene:\n- Eje horizontal: tiempo (s)\n- Eje vertical: distancia (m)\nLos puntos visibles de la gráfica van aumentando de forma uniforme, aproximadamente así:\n- 0 s, 0 m\n- 5 s, 20 m\n- 10 s, 40 m\n- 15 s, 60 m\n- 20 s, 80 m\nLa línea es recta y siempre sube con la misma inclinación.",
+          "question": "La siguiente gráfica muestra la relación entre la distancia recorrida por un móvil y el tiempo empleado en alcanzar cada una de estas posiciones. A partir de esta información podemos afirmar que:",
           "questionLines": [
-            "La siguiente gráfica muestra la relación entre la distancia recorrida por un móvil y el tiempo empleado en alcanzar cada una de estas posiciones. A partir de esta información podemos afirmar que:",
-            "La gráfica tiene:",
-            "- Eje horizontal: tiempo (s)",
-            "- Eje vertical: distancia (m)",
-            "Los puntos visibles de la gráfica van aumentando de forma uniforme, aproximadamente así:",
-            "- 0 s, 0 m",
-            "- 5 s, 20 m",
-            "- 10 s, 40 m",
-            "- 15 s, 60 m",
-            "- 20 s, 80 m",
-            "La línea es recta y siempre sube con la misma inclinación."
+            "La siguiente gráfica muestra la relación entre la distancia recorrida por un móvil y el tiempo empleado en alcanzar cada una de estas posiciones. A partir de esta información podemos afirmar que:"
           ],
           "options": [
             {

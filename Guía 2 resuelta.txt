@@ -8,19 +8,6 @@ Fuente: Guía 2
 Planteamiento del problema:
 La siguiente gráfica muestra la relación entre la distancia recorrida por un móvil y el tiempo empleado en alcanzar cada una de estas posiciones. A partir de esta información podemos afirmar que:
 
-La gráfica tiene:
-- Eje horizontal: tiempo (s)
-- Eje vertical: distancia (m)
-
-Los puntos visibles de la gráfica van aumentando de forma uniforme, aproximadamente así:
-- 0 s, 0 m
-- 5 s, 20 m
-- 10 s, 40 m
-- 15 s, 60 m
-- 20 s, 80 m
-
-La línea es recta y siempre sube con la misma inclinación.
-
 Opciones:
 A) la aceleración que experimentó el móvil es 50 m/s²
 B) el móvil mantuvo constante su posición
