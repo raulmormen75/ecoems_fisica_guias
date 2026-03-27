@@ -263,7 +263,11 @@
         <rect x="0" y="0" width="${width}" height="${height}" rx="${compact ? 18 : 24}" fill="rgba(255,255,255,0.98)"/>
         <line x1="${padding.left}" y1="${padding.top}" x2="${padding.left}" y2="${height - padding.bottom}" class="chart-axis"></line>
         <line x1="${padding.left}" y1="${height - padding.bottom}" x2="${width - padding.right}" y2="${height - padding.bottom}" class="chart-axis"></line>
-        ${yTicks
+        ${spec.simpleAxes ? `
+          <polygon points="${padding.left},${padding.top - 6} ${padding.left - 4},${padding.top + 4} ${padding.left + 4},${padding.top + 4}" fill="rgba(20,20,58,0.42)" />
+          <polygon points="${width - padding.right + 6},${height - padding.bottom} ${width - padding.right - 4},${height - padding.bottom - 4} ${width - padding.right - 4},${height - padding.bottom + 4}" fill="rgba(20,20,58,0.42)" />
+        ` : ''}
+        ${spec.simpleAxes ? '' : yTicks
           .map((tick) => `
             <g>
               <line x1="${padding.left - 4}" y1="${scaleY(tick)}" x2="${width - padding.right}" y2="${scaleY(tick)}" class="chart-grid"></line>
@@ -271,7 +275,7 @@
             </g>
           `)
           .join('')}
-        ${xTicks
+        ${spec.simpleAxes ? '' : xTicks
           .map((tick) => `
             <g>
               <line x1="${scaleX(tick)}" y1="${height - padding.bottom}" x2="${scaleX(tick)}" y2="${padding.top}" class="chart-grid"></line>
@@ -280,13 +284,13 @@
           `)
           .join('')}
         <path d="${path}" class="chart-line ${spec.chartType === 'curve' ? 'curve' : ''}"></path>
-        ${points
+        ${spec.simpleAxes ? '' : points
           .map(
             ([x, y]) => `<circle cx="${scaleX(x)}" cy="${scaleY(y)}" r="${compact ? 3 : 4}" class="chart-point"></circle>`
           )
           .join('')}
-        ${spec.yLabel ? `<text x="${-(padding.top + plotHeight / 2)}" y="${padding.left - 24}" transform="rotate(-90)" text-anchor="middle" class="chart-label chart-label-y">${esc(spec.yLabel)}</text>` : ''}
-        ${spec.xLabel ? `<text x="${padding.left + plotWidth / 2}" y="${height - 6}" text-anchor="middle" class="chart-label">${esc(spec.xLabel)}</text>` : ''}
+        ${spec.simpleAxes ? (spec.yLabel ? `<text x="${padding.left - 12}" y="${padding.top + plotHeight / 2 + 4}" text-anchor="end" class="chart-label">${esc(spec.yLabel)}</text>` : '') : (spec.yLabel ? `<text x="${-(padding.top + plotHeight / 2)}" y="${padding.left - 24}" transform="rotate(-90)" text-anchor="middle" class="chart-label chart-label-y">${esc(spec.yLabel)}</text>` : '')}
+        ${spec.simpleAxes ? (spec.xLabel ? `<text x="${padding.left + plotWidth / 2}" y="${height - padding.bottom + 18}" text-anchor="middle" class="chart-label">${esc(spec.xLabel)}</text>` : '') : (spec.xLabel ? `<text x="${padding.left + plotWidth / 2}" y="${height - 6}" text-anchor="middle" class="chart-label">${esc(spec.xLabel)}</text>` : '')}
       </svg>
     `;
   }

@@ -153,10 +153,10 @@ const REACTIVE_OVERRIDES = {
       type: 'motion-family-graphs',
       title: 'Relación entre movimiento y forma de la gráfica',
       charts: [
-        { id: 'a', chartType: 'curve', fromOrigin: false, label: 'a' },
-        { id: 'b', chartType: 'curve', fromOrigin: true, label: 'b' },
-        { id: 'c', chartType: 'line', fromOrigin: false, label: 'c' },
-        { id: 'd', chartType: 'line', fromOrigin: true, label: 'd' }
+        { id: 'a', chartType: 'curve', fromOrigin: false, label: 'a', simpleAxes: true, xLabel: 't', yLabel: 'd' },
+        { id: 'b', chartType: 'curve', fromOrigin: true, label: 'b', simpleAxes: true, xLabel: 't', yLabel: 'd' },
+        { id: 'c', chartType: 'line', fromOrigin: false, label: 'c', simpleAxes: true, xLabel: 't', yLabel: 'd' },
+        { id: 'd', chartType: 'line', fromOrigin: true, label: 'd', simpleAxes: true, xLabel: 't', yLabel: 'd' }
       ]
     }
   }

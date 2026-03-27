@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Física",
     "subject": "Física",
     "version": "1.0.0",
-    "generatedAt": "2026-03-27 14:43:20",
+    "generatedAt": "2026-03-27 14:52:09",
     "totalExercises": 24,
     "topicCount": 24
   },
@@ -1371,17 +1371,12 @@ window.IFR_APP_DATA = {
           "sourceNotes": [],
           "topic": "Movimiento rectilíneo uniforme y movimiento uniformemente acelerado",
           "topicId": "movimiento-rectilineo-uniforme-y-movimiento-uniformemente-acelerado",
-          "question": "Relaciona los tipos de movimiento con las gráficas que los representan.\nTipos de movimiento:\nI. Movimiento rectilíneo uniforme.\nII. Movimiento uniformemente acelerado.\nGráficas:\na) curva ascendente\nb) curva ascendente desde el origen\nc) línea recta ascendente\nd) línea recta ascendente desde el origen",
+          "question": "Relaciona los tipos de movimiento con las gráficas que los representan.\nTipos de movimiento:\nI. Movimiento rectilíneo uniforme.\nII. Movimiento uniformemente acelerado.",
           "questionLines": [
             "Relaciona los tipos de movimiento con las gráficas que los representan.",
             "Tipos de movimiento:",
             "I. Movimiento rectilíneo uniforme.",
-            "II. Movimiento uniformemente acelerado.",
-            "Gráficas:",
-            "a) curva ascendente",
-            "b) curva ascendente desde el origen",
-            "c) línea recta ascendente",
-            "d) línea recta ascendente desde el origen"
+            "II. Movimiento uniformemente acelerado."
           ],
           "options": [
             {
@@ -1448,25 +1443,37 @@ window.IFR_APP_DATA = {
                 "id": "a",
                 "chartType": "curve",
                 "fromOrigin": false,
-                "label": "a"
+                "label": "a",
+                "simpleAxes": true,
+                "xLabel": "t",
+                "yLabel": "d"
               },
               {
                 "id": "b",
                 "chartType": "curve",
                 "fromOrigin": true,
-                "label": "b"
+                "label": "b",
+                "simpleAxes": true,
+                "xLabel": "t",
+                "yLabel": "d"
               },
               {
                 "id": "c",
                 "chartType": "line",
                 "fromOrigin": false,
-                "label": "c"
+                "label": "c",
+                "simpleAxes": true,
+                "xLabel": "t",
+                "yLabel": "d"
               },
               {
                 "id": "d",
                 "chartType": "line",
                 "fromOrigin": true,
-                "label": "d"
+                "label": "d",
+                "simpleAxes": true,
+                "xLabel": "t",
+                "yLabel": "d"
               }
             ]
           },

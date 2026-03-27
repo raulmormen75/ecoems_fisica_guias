@@ -85,11 +85,7 @@ Tipos de movimiento:
 I. Movimiento rectilíneo uniforme.
 II. Movimiento uniformemente acelerado.
 
-Gráficas:
-a) curva ascendente
-b) curva ascendente desde el origen
-c) línea recta ascendente
-d) línea recta ascendente desde el origen
+
 
 Opciones:
 A) I: a, c   II: b, d
